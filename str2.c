@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * nothing_data - Does nothing.
+ * nothing_data - a function that Does nothing.
  * @stack: node of the stack.
  * @line_number:  number of of the opcode.
  */
