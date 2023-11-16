@@ -6,20 +6,20 @@
  * @new_node: Pointer to the new node.
  * @ln: line number of of the opcode.
  */
-void append_elem(stack_t **new_node, unsigned int ln)
+void append_elem(stack_t **new_nod, unsigned int ln)
 {
 	stack_t *top;
 	(void) ln;
 
-	if (new_node == NULL || *new_node == NULL)
+	if (new_nod == NULL || *new_nod == NULL)
 		exit(EXIT_FAILURE);
 	if (head == NULL)
 	{
-		head = *new_node;
+		head = *new_nod;
 		return;
 	}
 	top = head;
-	head = *new_node;
+	head = *new_nod;
 	head->next = top;
 	top->prev = head;
 }
