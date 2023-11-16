@@ -2,8 +2,8 @@
 
 /**
  * nothing_data - Does nothing.
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * @stack: node of the stack.
+ * @line_number:  number of of the opcode.
  */
 void nothing_data(stack_t **stack, unsigned int line_number)
 {
@@ -13,9 +13,9 @@ void nothing_data(stack_t **stack, unsigned int line_number)
 
 
 /**
- * swapped_data - Swaps the top two elements of the stack.
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * swapped_data - elements of the stack.
+ * @stack: Pointer.
+ * @line_number: number of of the opcode.
  */
 void swapped_data(stack_t **stack, unsigned int line_number)
 {
@@ -34,9 +34,9 @@ void swapped_data(stack_t **stack, unsigned int line_number)
 }
 
 /**
- * sumnodes - Adds the top two elements of the stack.
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * sumnodes - Adds the the stack.
+ * @stack: Pointer to aof the stack.
+ * @line_number: number of of the opcode.
  */
 void sumnodes(stack_t **stack, unsigned int line_number)
 {
@@ -54,9 +54,9 @@ void sumnodes(stack_t **stack, unsigned int line_number)
 
 
 /**
- * snodes - Adds the top two elements of the stack.
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * snodes -  of the stack.
+ * @stack: node of the stack.
+ * @line_number: number of of the opcode.
  */
 void snodes(stack_t **stack, unsigned int line_number)
 {

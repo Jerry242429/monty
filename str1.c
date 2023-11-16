@@ -2,8 +2,8 @@
 
 
 /**
- * append_elem - function that append elemnt to thee stack.
- * @new_node: Pointer to the new node.
+ * append_elem - append elemnt to thee stack.
+ * @new_node: to the new node.
  * @ln: line number of of the opcode.
  */
 void append_elem(stack_t **new_nod, unsigned int ln)
