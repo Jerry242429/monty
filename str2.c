@@ -76,13 +76,13 @@ void snodes(stack_t **stack, unsigned int line_number)
 
 
 /**
- * divide - Adds the top two elements of the stack.
- * @stack: Pointer to a pointer pointing to top node of the stack.
- * @line_number: Interger representing the line number of of the opcode.
+ * divide - give me the stack.
+ * @stack: stack node.
+ * @line_number: row of the file.
  */
 void divide(stack_t **stack, unsigned int line_number)
 {
-	int sum;
+	int s;
 
 	if (stack == NULL || *stack == NULL || (*stack)->next == NULL)
 		more_mistake(8, line_number, "div");
@@ -90,8 +90,8 @@ void divide(stack_t **stack, unsigned int line_number)
 	if ((*stack)->n == 0)
 		more_mistake(9, line_number);
 	(*stack) = (*stack)->next;
-	sum = (*stack)->n / (*stack)->prev->n;
-	(*stack)->n = sum;
+	s = (*stack)->n / (*stack)->prev->n;
+	(*stack)->n = s;
 	free((*stack)->prev);
 	(*stack)->prev = NULL;
 }
