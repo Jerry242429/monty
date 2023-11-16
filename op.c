@@ -1,10 +1,9 @@
 #include "monty.h"
 
 /**
- * multiply - multiply two elements of the stack.
+ * multiply - the multiply two elements of the stack.
  * @stack: pointing to top node of the stack.
  * @line_number: line number of of the opcode.
- * Return: void
  *
  */
 void multiply(stack_t **stack, unsigned int line_number)
@@ -23,7 +22,7 @@ void multiply(stack_t **stack, unsigned int line_number)
 
 
 /**
- * modules - modules two elements of the stack.
+ * modules - the modules two elements of the stack.
  * @stack: pointing to top node of the stack.
  * @line_number: line number of of the opcode.
  * Return: void
