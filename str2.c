@@ -13,7 +13,7 @@ void nothing_data(stack_t **stack, unsigned int line_number)
 
 
 /**
- * swapped_data - swap the first two elements of the stack.
+ * swapped_data - swap element.
  * @stack: Pointer.
  * @line_number: number of of the opcode.
  */
@@ -60,7 +60,7 @@ void sumnodes(stack_t **stack, unsigned int line_number)
  */
 void snodes(stack_t **stack, unsigned int line_number)
 {
-	int sum;
+	int m;
 
 	if (stack == NULL || *stack == NULL || (*stack)->next == NULL)
 
@@ -68,8 +68,8 @@ void snodes(stack_t **stack, unsigned int line_number)
 
 
 	(*stack) = (*stack)->next;
-	sum = (*stack)->n - (*stack)->prev->n;
-	(*stack)->n = sum;
+	m = (*stack)->n - (*stack)->prev->n;
+	(*stack)->n = m;
 	free((*stack)->prev);
 	(*stack)->prev = NULL;
 }
