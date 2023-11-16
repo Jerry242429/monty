@@ -43,8 +43,8 @@ void boldVariable(FILE *fd)
  * pline - function that tokenize the input
  * @buffer: the file stored
  * @line_number: line number
- * @format:  storage format
- * Return:  0 or 1
+ * @format: storage format
+ * Return: 0 or 1
  */
 
 int pline(char *buffer, int line_number, int format)
@@ -71,9 +71,9 @@ int pline(char *buffer, int line_number, int format)
 
 /**
  * search_f - search for the function
- * @opcode: represnts the opcod
+ * @opcode: represnts the opcode
  * @value: an argument for opcode
- * @format:  storage format
+ * @format: storage format
  * @ln: the line number
  */
 void search_f(char *opcode, char *value, int ln, int format)
@@ -117,7 +117,7 @@ void search_f(char *opcode, char *value, int ln, int format)
 
 
 /**
- * function_call - a function that Calls the required function.
+ * function_call - function that Calls the required function.
  * @func: Pointer to the function
  * @op: represent the opcode of the function
  * @val: represent numeric value.
