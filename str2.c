@@ -13,7 +13,7 @@ void nothing_data(stack_t **stack, unsigned int line_number)
 
 
 /**
- * swapped_data - elements of the stack.
+ * swapped_data - swap the first two elements of the stack.
  * @stack: Pointer.
  * @line_number: number of of the opcode.
  */
