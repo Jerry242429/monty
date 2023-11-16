@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 
 /**
  * disc_node - function to create node to stack
- * @n: Number that contain data
+ * @n: Number data
  * Return: pointer to the node
  *
  */
@@ -42,9 +42,9 @@ stack_t *disc_node(int n)
 }
 
 /**
- * addq_elem - append node element to the queue
- * @new_node: Pointer to the new node.
- * @ln: line number of the opcode.
+ * addq_elem - the queue
+ * @new_node: new node.
+ * @ln: line number.
  */
 void addq_elem(stack_t **new_node, unsigned int ln)
 {
@@ -68,7 +68,7 @@ void addq_elem(stack_t **new_node, unsigned int ln)
 }
 
 /**
- * free_nodes - release the memory allocated for nodes
+ * free_nodes - allocated for nodes
  */
 void free_nodes(void)
 {
