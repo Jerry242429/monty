@@ -19,8 +19,8 @@ void ofile(char *file_name)
 
 
 /**
- * boldVariable - function that traverse through file
- * @fd: file descriptor
+ * boldVariable - traverse through file
+ * @fd: file iptor
  * Return: void
  *
  */
@@ -70,8 +70,8 @@ int pline(char *buffer, int line_number, int format)
 }
 
 /**
- * search_f - search for the appropriate function
- * @opcode: represnts the opcode of the function
+ * search_f - search for the function
+ * @opcode: represnts the opcod
  * @value: an argument for opcode
  * @format:  storage format
  * @ln: the line number
